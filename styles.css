@@ -1,0 +1,140 @@
+.parents-header,
+.itmes-informations,
+.competences,
+.exp-form {
+  font-family: arial, sans-serif;
+  display: flex;
+  width: 100%;
+}
+.présentation {
+  display: flex;
+  flex-wrap: wrap; /* Essaie aussi: nowrap, wrap-reverse */
+  justify-content: flex-start;
+  align-items: center;
+  width: 70%; /* Ajustez cette valeur selon vos besoins */
+  height: auto;
+}
+.parents-header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.photo-br {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item-objectif {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  width: 90%;
+  height: auto;
+}
+.photobject {
+  display: flex;
+  width: 10%;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+.objectf {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  width: 100%;
+  height: auto;
+}
+
+.présentation,
+.exp-pro,
+.skills {
+  display: flex;
+  flex-wrap: wrap; /* Essaie aussi: nowrap, wrap-reverse */
+  justify-content: flex-start;
+  width: 50%; /* Ajustez cette valeur selon vos besoins */
+  height: auto;
+}
+.objectf,
+.formation {
+  display: flex;
+  flex-wrap: wrap; /* Essaie aussi: nowrap, wrap-reverse */
+  justify-content: flex-sart;
+  width: 50%; /* Ajustez cette valeur selon vos besoins */
+  height: auto;
+}
+.langues {
+  display: flex;
+  flex-wrap: wrap; /* Essaie aussi: nowrap, wrap-reverse */
+  justify-content: center;
+  width: 50%; /* Ajustez cette valeur selon vos besoins */
+  height: auto;
+}
+.png {
+  display: flex;
+  flex-wrap: wrap; /* Essaie aussi: nowrap, wrap-reverse */
+  width: 10%; /* Ajustez cette valeur selon vos besoins */
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+}
+.info-perso {
+  display: flex;
+  flex-wrap: wrap; /* Essaie aussi: nowrap, wrap-reverse */
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 90%; /* Ajustez cette valeur selon vos besoins */
+  height: auto;
+  list-style-type: none;
+}
+
+.item-presentation h1 {
+  color: #e48e00;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
+.item-presentation h2 {
+  display: flex;
+  justify-content: center;
+  color: #ffc331;
+}
+
+.présentation,
+.objectf p,
+.item-presentation p {
+  font-weight: bold;
+  justify-content: center;
+}
+
+.exp-pro h1,
+.formation h1 {
+  display: flex;
+  justify-content: center;
+  width: 99%;
+  background-color: #ffc331;
+  color: white;
+}
+
+.item-experiences h4,
+.item-formations h4 {
+  color: #c26505;
+  font-weight: bold;
+}
+.item-experiences li,
+.item-formations,
+.item-langues li {
+  list-style-type: none;
+}
+@media only screen and (min-width: 481px) and (min-width:767px) {
+png {
+display: none;
+}
+.item-presentation h1 {
+    color: #e48e00;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+  } 
+}
