@@ -127,14 +127,56 @@
 .item-langues li {
   list-style-type: none;
 }
-@media only screen and (min-width: 481px) and (min-width:767px) {
-png {
-display: none;
-}
-.item-presentation h1 {
-    color: #e48e00;
-    font-size: 18px;
-    display: flex;
+
+@media screen and (max-width: 768px) {
+.png {
+  display: grid;
+  justify-content: flex-start;
+  width: 10%;
+ }
+ .photobject {
+    align-items: flex-start;
+    justify-content: space-between;
+    align-self:flex-start;
+ }
+
+ .itmes-informations,.item-objectif,.objectf {
+    width: 100%;
+ }
+ .parents-header,
+ .competences,
+ .exp-form {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    }
+          
+ .présentation,
+ .exp-pro,
+ .skills,
+ .objectf,
+ .formation,
+ .langues,
+ .info-perso {
+    width: 100%;
     justify-content: center;
-  } 
+ }
+          
+.item-objectif {
+     justify-content: center;
+     width: 100%;
+ }
+          
+.photobject {
+    width: 100%;
+}
+          
+.item-presentation h1 {
+    font-size: 16px;
+}
+          
+.exp-pro h1,
+.formation h1 {
+    width: 100%;
+ }
 }
